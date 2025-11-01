@@ -8,68 +8,68 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 210 24% 16%;
+    --background: 220 18% 97%;
+    --foreground: 220 16% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 24% 16%;
+    --card-foreground: 220 16% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 24% 16%;
+    --popover-foreground: 220 16% 12%;
 
-    --primary: 210 40% 15%;
+    --primary: 220 92% 58%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 17% 95%;
-    --secondary-foreground: 210 24% 16%;
+    --secondary: 220 20% 95%;
+    --secondary-foreground: 220 16% 12%;
 
-    --muted: 210 17% 95%;
-    --muted-foreground: 210 12% 46%;
+    --muted: 220 18% 94%;
+    --muted-foreground: 220 13% 48%;
 
-    --accent: 210 17% 93%;
-    --accent-foreground: 210 24% 16%;
+    --accent: 220 92% 95%;
+    --accent-foreground: 220 92% 58%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 90%;
-    --input: 210 20% 90%;
-    --ring: 210 40% 15%;
+    --border: 220 16% 88%;
+    --input: 220 16% 88%;
+    --ring: 220 92% 58%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
 
-    --sidebar-background: 210 35% 12%;
+    --sidebar-background: 220 36% 13%;
     --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 0 0% 100%;
-    --sidebar-primary-foreground: 210 35% 12%;
-    --sidebar-accent: 210 30% 18%;
+    --sidebar-primary: 220 92% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 32% 19%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 210 30% 18%;
-    --sidebar-ring: 210 40% 50%;
+    --sidebar-border: 220 32% 19%;
+    --sidebar-ring: 220 92% 58%;
 
     /* Course card colors */
-    --course-purple: 270 50% 90%;
-    --course-purple-dark: 270 50% 25%;
-    --course-yellow: 45 95% 85%;
-    --course-yellow-dark: 45 90% 30%;
-    --course-blue: 200 70% 85%;
-    --course-blue-dark: 200 70% 25%;
-    --course-green: 140 50% 85%;
-    --course-green-dark: 140 50% 25%;
-    --course-mint: 160 45% 85%;
-    --course-mint-dark: 160 45% 25%;
-    --course-pink: 340 75% 85%;
-    --course-pink-dark: 340 75% 30%;
-    --course-magenta: 310 60% 85%;
-    --course-magenta-dark: 310 60% 30%;
-    --course-lavender: 250 50% 85%;
-    --course-lavender-dark: 250 50% 30%;
+    --course-purple: 270 78% 94%;
+    --course-purple-dark: 270 66% 34%;
+    --course-yellow: 45 98% 87%;
+    --course-yellow-dark: 45 86% 27%;
+    --course-blue: 210 88% 91%;
+    --course-blue-dark: 210 76% 33%;
+    --course-green: 145 72% 91%;
+    --course-green-dark: 145 61% 31%;
+    --course-mint: 165 68% 91%;
+    --course-mint-dark: 165 56% 31%;
+    --course-pink: 340 82% 93%;
+    --course-pink-dark: 340 71% 35%;
+    --course-magenta: 310 77% 91%;
+    --course-magenta-dark: 310 66% 34%;
+    --course-lavender: 260 73% 93%;
+    --course-lavender-dark: 260 62% 35%;
 
     /* Status colors */
-    --status-success: 142 71% 85%;
-    --status-success-text: 142 71% 25%;
-    --status-upcoming: 200 70% 85%;
-    --status-upcoming-text: 200 70% 25%;
+    --status-success: 145 72% 91%;
+    --status-success-text: 145 61% 31%;
+    --status-upcoming: 210 88% 91%;
+    --status-upcoming-text: 210 76% 33%;
   }
 }
 
