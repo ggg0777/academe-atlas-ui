@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { toast } from "sonner";
+import dbtcLogo from "@/assets/dbtc-logo.png";
 
 export default function Auth() {
   const navigate = useNavigate();
@@ -79,11 +80,11 @@ export default function Auth() {
       <Card className="w-full max-w-md">
         <CardHeader>
           <div className="flex items-center justify-center mb-4">
-            <div className="w-12 h-12 bg-primary rounded flex items-center justify-center font-bold text-primary-foreground text-xl">
-              U
+            <div className="w-20 h-20 rounded-full overflow-hidden bg-white">
+              <img src={dbtcLogo} alt="DBTC Logo" className="w-full h-full object-cover" />
             </div>
           </div>
-          <CardTitle className="text-2xl text-center">UTOPIA Student Portal</CardTitle>
+          <CardTitle className="text-2xl text-center">Don Bosco Technical College Mandaluyong</CardTitle>
           <CardDescription className="text-center">
             {isLogin ? "Sign in to your account" : "Create a new student account"}
           </CardDescription>

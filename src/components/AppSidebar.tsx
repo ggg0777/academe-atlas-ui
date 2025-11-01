@@ -1,5 +1,6 @@
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { LayoutDashboard, Calendar, FileText, BookOpen, Settings, LogOut } from "lucide-react";
+import dbtcLogo from "@/assets/dbtc-logo.png";
 import {
   Sidebar,
   SidebarContent,
@@ -41,12 +42,16 @@ export function AppSidebar() {
     <Sidebar className={isCollapsed ? "w-14" : "w-60"}>
       <SidebarContent>
         <div className="flex items-center justify-center py-6 px-4 border-b border-sidebar-border">
-          {!isCollapsed && (
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-sidebar-primary rounded flex items-center justify-center font-bold text-sidebar-primary-foreground">
-                U
+          {!isCollapsed ? (
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 bg-white">
+                <img src={dbtcLogo} alt="DBTC Logo" className="w-full h-full object-cover" />
               </div>
-              <span className="font-bold text-lg text-sidebar-foreground">UTOPIA</span>
+              <span className="font-bold text-sm text-sidebar-foreground leading-tight">Don Bosco Technical College Mandaluyong</span>
+            </div>
+          ) : (
+            <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 bg-white">
+              <img src={dbtcLogo} alt="DBTC Logo" className="w-full h-full object-cover" />
             </div>
           )}
         </div>
